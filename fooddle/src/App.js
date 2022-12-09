@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './Navbar/Navbar';
 
 import React, { createContext, useReducer, useContext } from "react";
+import Main from './Questionaire/Main';
 
 const ThemeContext = createContext();
 
@@ -77,6 +78,7 @@ function App() {
     <ThemeProvider>
       <Navbar/>
       <Interview />
+      <Main/>
     </ThemeProvider>
       
     </div>
