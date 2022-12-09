@@ -3,15 +3,15 @@ import Submit from "./Submit";
 
 export default function Main() {
   return (
-    <div class="py-12">
-      <h2 class="text-2xl font-bold">Food Questionaire</h2>
-      <div class="mt-8 max-w-md">
-        <div class="grid grid-cols-1 gap-6">
-          <label class="block">
-            <span class="text-gray-700">Full name</span>
+    <div className="py-12">
+      <h2 className="text-2xl font-bold">Food Questionaire</h2>
+      <div className="mt-8 max-w-md">
+        <div className="grid grid-cols-1 gap-6">
+          <label className="block">
+            <span className="text-gray-700">Full name</span>
             <input
               type="text"
-              class="
+              className="
                     mt-1
                     block
                     w-full
@@ -23,11 +23,11 @@ export default function Main() {
               placeholder=""
             />
           </label>
-          <label class="block">
-            <span class="text-gray-700">Email address</span>
+          <label className="block">
+            <span className="text-gray-700">Email address</span>
             <input
               type="email"
-              class="
+              className="
                     mt-1
                     block
                     w-full
@@ -39,11 +39,11 @@ export default function Main() {
               placeholder="john@example.com"
             />
           </label>
-          <label class="block">
-            <span class="text-gray-700">When is your meal?</span>
+          <label className="block">
+            <span className="text-gray-700">When is your meal?</span>
             <input
               type="date"
-              class="
+              className="
                     mt-1
                     block
                     w-full
@@ -54,12 +54,12 @@ export default function Main() {
                   "
             />
           </label>
-          <label class="block">
-            <span class="text-gray-700">
+          <label className="block">
+            <span className="text-gray-700">
               What are your dietary requirements?
             </span>
             <select
-              class="
+              className="
                     block
                     w-full
                     mt-1
@@ -78,10 +78,10 @@ export default function Main() {
               <option>Other</option>
             </select>
           </label>
-          <label class="block">
-            <span class="text-gray-700">Additional details</span>
+          <label className="block">
+            <span className="text-gray-700">Additional details</span>
             <textarea
-              class="
+              className="
                     mt-1
                     block
                     w-full
@@ -93,13 +93,13 @@ export default function Main() {
               rows="3"
             ></textarea>
           </label>
-          <div class="block">
-            <div class="mt-2">
+          <div className="block">
+            <div className="mt-2">
               <div>
-                <label class="inline-flex items-center">
+                <label className="inline-flex items-center">
                   <input
                     type="checkbox"
-                    class="
+                    className="
                           rounded
                           bg-gray-200
                           border-transparent
@@ -108,7 +108,7 @@ export default function Main() {
                           focus:ring-1 focus:ring-offset-2 focus:ring-gray-500
                         "
                   />
-                  <span class="ml-2">Email me news and special offers</span>
+                  <span className="ml-2">Email me news and special offers</span>
                 </label>
               </div>
             </div>
