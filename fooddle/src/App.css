@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+:root{
+    --primary-color: #93C572;
+    --secondary-color: #f6d809;
+    --tertiary-color: #569099;
+
+    --background-color: #a4dad2;
+    --text-color: #37392E;
+
+    --font: 'Poppins', sans-serif;
+    
+
+    --primary-font-size: 1.6rem;
+    --secondary-font-size: 1.4rem;
+    --tertiary-font-size: 1.2rem;
+
+    --primary-font-weight: 800;
+    --secondary-font-weight: 600;
+    --tertiary-font-weight: 400;
+}
 /* General Styles */
 
 .bg {
@@ -12,15 +33,15 @@
   transition: 0.2s all linear;
 }
 
-/* .btn {
+.btn {
   border: none;
   padding: 10px 30px;
   border-radius: 4px;
   margin-top: 20px;
-  font-size: 15px;
+  /* font-size: 15px; */
   cursor: pointer;
   transition: 0.2s all linear;
-} */
+}
 
 .btn:hover {
   transform: scale(1.1);

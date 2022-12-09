@@ -6,8 +6,8 @@ function Navbar() {
   return (
     <div
       className="
-      navbar bg-[transparent] absolute w-[100%]
-         md:fixed md:hrefp-0 md:z-[1000]"
+      navbar bg-[transparent] relative w-[100%]
+    "
     >
       <div className="w-[100%] md:flex hidden md:justify-between">
         <div>
