@@ -1,9 +1,10 @@
 import React from "react";
+import Submit from "./Submit";
 
 export default function Main() {
   return (
     <div class="py-12">
-      <h2 class="text-2xl font-bold">Solid</h2>
+      <h2 class="text-2xl font-bold">Food Questionaire</h2>
       <div class="mt-8 max-w-md">
         <div class="grid grid-cols-1 gap-6">
           <label class="block">
@@ -39,7 +40,7 @@ export default function Main() {
             />
           </label>
           <label class="block">
-            <span class="text-gray-700">When is your event?</span>
+            <span class="text-gray-700">When is your meal?</span>
             <input
               type="date"
               class="
@@ -54,7 +55,9 @@ export default function Main() {
             />
           </label>
           <label class="block">
-            <span class="text-gray-700">What type of event is it?</span>
+            <span class="text-gray-700">
+              What are your dietary requirements?
+            </span>
             <select
               class="
                     block
@@ -66,9 +69,12 @@ export default function Main() {
                     focus:border-gray-500 focus:bg-white focus:ring-0
                   "
             >
-              <option>Corporate event</option>
-              <option>Wedding</option>
-              <option>Birthday</option>
+              <option>Any</option>
+              <option>Vegetarian</option>
+              <option>Vegan</option>
+              <option>Halal</option>
+              <option>Pescatarian</option>
+              <option>Kosher</option>
               <option>Other</option>
             </select>
           </label>
@@ -109,6 +115,7 @@ export default function Main() {
           </div>
         </div>
       </div>
+      <Submit />
     </div>
   );
 }
