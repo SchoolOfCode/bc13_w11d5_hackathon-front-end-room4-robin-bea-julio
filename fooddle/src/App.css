@@ -1,0 +1,71 @@
+/* General Styles */
+
+.bg {
+  min-height: 25vh;
+  padding: 50px;
+  overflow: hidden;
+  transition: 0.2s all linear;
+}
+
+.heading {
+  text-transform: uppercase;
+  transition: 0.2s all linear;
+}
+
+/* .btn {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s all linear;
+} */
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: var(--tertiary-color);
+}
+
+.para {
+  width: 70vw;
+  transition: 0.2s all linear;
+}
+
+/* Light Mode Styles */
+
+.bg-light {
+  background-color: var(--background-color);
+}
+
+.heading-light {
+  color: #eee;
+}
+
+.para-light {
+  color: var(--text-color);
+}
+
+.btn-light {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+/* Dark Mode Styles */
+
+.bg-dark {
+  background-color: var(--text-color);
+}
+
+.heading-dark {
+  color: #eee;
+}
+
+.para-dark {
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: var(--secondary-color);
+  color: #222;
+}
